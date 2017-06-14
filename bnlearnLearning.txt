@@ -1,0 +1,80 @@
+  Bayesian network parameters
+
+  Parameters of node A (multinomial distribution)
+
+Conditional probability table:
+      a      b      c 
+0.3336 0.3340 0.3324 
+
+  Parameters of node B (multinomial distribution)
+
+Conditional probability table:
+ 
+   A
+B            a          b          c
+  a 0.85611511 0.44491018 0.11492178
+  b 0.02517986 0.22095808 0.09446450
+  c 0.11870504 0.33413174 0.79061372
+
+  Parameters of node C (multinomial distribution)
+
+Conditional probability table:
+      a      b      c 
+0.7434 0.2048 0.0518 
+
+  Parameters of node D (multinomial distribution)
+
+Conditional probability table:
+ 
+, , C = a
+
+   A
+D            a          b          c
+  a 0.80081301 0.09251810 0.10530547
+  b 0.09024390 0.80209171 0.11173633
+  c 0.10894309 0.10539019 0.78295820
+
+, , C = b
+
+   A
+D            a          b          c
+  a 0.18079096 0.88304094 0.24695122
+  b 0.13276836 0.07017544 0.49390244
+  c 0.68644068 0.04678363 0.25914634
+
+, , C = c
+
+   A
+D            a          b          c
+  a 0.42857143 0.34117647 0.13333333
+  b 0.20238095 0.38823529 0.44444444
+  c 0.36904762 0.27058824 0.42222222
+
+
+  Parameters of node E (multinomial distribution)
+
+Conditional probability table:
+ 
+, , F = a
+
+   B
+E            a          b          c
+  a 0.80524979 0.20588235 0.11937378
+  b 0.09737511 0.17973856 0.11448141
+  c 0.09737511 0.61437908 0.76614481
+
+, , F = b
+
+   B
+E            a          b          c
+  a 0.40050804 0.31679389 0.23759542
+  b 0.49026249 0.36641221 0.50667939
+  c 0.10922947 0.31679389 0.25572519
+
+
+  Parameters of node F (multinomial distribution)
+
+Conditional probability table:
+      a      b 
+0.5018 0.4982 
+
